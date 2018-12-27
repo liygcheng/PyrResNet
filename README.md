@@ -1,5 +1,5 @@
 # PyrResNet
-For cvpr2018 paper "Intrinsic Image Transformation Via Scale Space Decomposition"(https://arxiv.org/pdf/1805.10253.pdf)
+For cvpr2018 paper ["Intrinsic Image Transformation Via Scale Space Decomposition"](https://arxiv.org/pdf/1805.10253.pdf)
 
 
 ## Training Data and Additional Data

@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-image
+Pillow
+tensorboard_logger
+matplotlib
+
+

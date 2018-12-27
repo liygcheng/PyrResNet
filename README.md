@@ -26,6 +26,19 @@ cd PyrResNet
 ```
 https://drive.google.com/open?id=1gcNSwkDSQCwr8CezgRvL0WOX9wetlFIk
 ```
+###  train/test
+- Download dataset (e.g. sintel):
+- Train a model (e.g. Scene Split):
+```bash
+python PyrResNet_Joint_MPI.py --cuda
+```
+- To view training results and loss plots, change directory to `PyrResNet/Results/` and start
+tensorboard as:
+```bash
+tensorboard --logdir=LossVis --port=10240
+```
+open the URL http://localhost:10240 and you will get the visualization results.
+
 
 ## Citation
 If you use this code for your research, please cite our papers.

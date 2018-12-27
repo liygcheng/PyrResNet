@@ -2,9 +2,9 @@
 For cvpr2018 paper ["Intrinsic Image Transformation Via Scale Space Decomposition"](https://arxiv.org/pdf/1805.10253.pdf)
 
 ## Prerequisites
-- Linux
+- Linux(16.04)
 - Python 2 or 3
-- NVIDIA GPU + CUDA CuDNN
+- NVIDIA GPU(TiTan Xp) + CUDA CuDNN
 
 ## Getting Started
 ### Installation
@@ -25,6 +25,8 @@ cd PyrResNet
 ```
 https://drive.google.com/open?id=1gcNSwkDSQCwr8CezgRvL0WOX9wetlFIk
 ```
+
+
 
 
 

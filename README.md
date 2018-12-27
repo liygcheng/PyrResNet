@@ -1,5 +1,6 @@
 # PyrResNet
 For cvpr2018 paper ["Intrinsic Image Transformation Via Scale Space Decomposition"](https://arxiv.org/pdf/1805.10253.pdf)
+Some of the implementations are redundant and will be optimized in the future.
 
 ## Prerequisites
 - Linux(16.04)
@@ -26,6 +27,16 @@ cd PyrResNet
 https://drive.google.com/open?id=1gcNSwkDSQCwr8CezgRvL0WOX9wetlFIk
 ```
 
+## Citation
+If you use this code for your research, please cite our papers.
+```
+@InProceedings{Cheng_2018_CVPR,
+author = {Cheng, Lechao and Zhang, Chengyi and Liao, Zicheng},
+title = {Intrinsic Image Transformation via Scale Space Decomposition},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}
 
 
 

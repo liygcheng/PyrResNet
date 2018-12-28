@@ -30,7 +30,7 @@ https://drive.google.com/open?id=1gcNSwkDSQCwr8CezgRvL0WOX9wetlFIk
 - Download dataset (e.g. sintel):
 - Train a model (e.g. Scene Split):
 ```bash
-python PyrResNet_Joint_MPI.py --cuda
+python PyrResNet_Joint_MPI.py --cuda --niter=1000 
 ```
 - To view training results and loss plots, change directory to `PyrResNet/Results/` and start
 tensorboard as:

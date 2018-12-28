@@ -22,7 +22,7 @@ git clone https://github.com/liygcheng/PyrResNet.git
 cd PyrResNet
 ```
 
-- Download Sintel Dataset and MIT Dataset
+- Download Sintel Dataset and MIT Dataset( and additional dataset)
 ```
 https://drive.google.com/open?id=1gcNSwkDSQCwr8CezgRvL0WOX9wetlFIk
 ```

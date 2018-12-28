@@ -140,20 +140,7 @@ def clc_Loss_shading(fake,real):
     return loss_data
 
 def clc_Loss_data(fake,real):
-
-#    H, W = fake.size()[2], fake.size()[3]
-
-#    padding = 2
-#    tmp_pad = nn.ConstantPad2d((padding, padding, padding, padding))
-#    tmp_inversepad = nn.ConstantPad2d((-padding, -padding, -padding, -padding))
-
-#    disp = range(-padding,padding+1)
-#    disp  = [x for x in itertools.product(disp,disp)]
-
-#    for h, w in disp:
-#        real_tmp = real[:,:,]
-#
-#    return loss.mean()
+    # need to optimize !
     weights,neighbors = get_shift_weight(real)
     space_weight = [0.0838,0.0838,0.0838,0.0838,0.0113,0.0113,0.0113,0.0113,0.6193]
 

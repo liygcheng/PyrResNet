@@ -39,7 +39,7 @@ def Arguments_Init():
     parser.add_argument('--workers',type = int,help='num of data loading workers',default = 4)
     parser.add_argument('--cuda',action = 'store_true',help='Enable cuda')
     parser.add_argument('--imageSize',type = int , help='the height / width of input image to network',default=256)
-    parser.add_argument('--niter',type=int,help='number of epochs of training',default=500)
+    parser.add_argument('--niter',type=int,help='number of epochs of training',default=1000)
     parser.add_argument('--gpu_id',type=int,default=0)
     parser.add_argument('--levels',type=int,default=4)
     parser.add_argument('--albedo_model',type=str,default='Models/ResPyramid_Models/albedo/2017-10-27-23-44/')

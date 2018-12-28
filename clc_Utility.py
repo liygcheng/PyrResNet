@@ -127,7 +127,7 @@ def clc_Loss_albedo(fake,real):
     #prob = (1 - (-3.1416*((fake-real)**2)).exp() )**2
 
     #loss_data = (prob*( (fake-real)**2 )).mean()
-    loss_data = criterion(fake,real) + clc_Loss_data(fake,real) + lambda_tv*clc_tv_norm(fake)
+    loss_data = clc_Loss_data(fake,real) + lambda_tv*clc_tv_norm(fake)
     #loss_data = prob.mean()
     return loss_data#criterion(fake,real)#clc_Loss_data(fake,real) #+ lambda_tv*clc_tv_norm(fake)
 
@@ -136,7 +136,7 @@ def clc_Loss_shading(fake,real):
 
     lambda_tv = 1e-4
 
-    loss_data =  criterion(fake,real) + clc_Loss_data(fake,real) + lambda_tv*clc_tv_norm(fake)
+    loss_data =  clc_Loss_data(fake,real) + lambda_tv*clc_tv_norm(fake)
     return loss_data
 
 def clc_Loss_data(fake,real):

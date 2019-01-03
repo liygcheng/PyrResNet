@@ -9,7 +9,7 @@ Some of the implementations are redundant and will be optimized in the future.
 
 ## Getting Started
 ### Installation
-- Install PyTorch and torchvision from http://pytorch.org and other dependencies.
+- Install PyTorch(0.3.0) and torchvision from http://pytorch.org and other dependencies.
 You can install all the dependencies by
 ```bash
 pip install -r requirements.txt
